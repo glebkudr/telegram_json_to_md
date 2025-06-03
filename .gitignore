@@ -1,0 +1,90 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+go.work
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# Build directories
+build/bin/
+build/windows/
+build/darwin/
+build/linux/
+
+# Wails build files
+wails.json.bak
+
+# Frontend dependencies and build
+node_modules/
+*/node_modules/
+frontend/dist/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Windows executable files
+*.exe
+
+# Package files
+*.deb
+*.rpm
+*.msi
+*.dmg
+*.pkg
+*.zip
+*.tar.gz
+
+# Temporary files
+tmp/
+temp/
+
+# Application specific
+telegram_parse.exe
+*.exe 
